@@ -1,3 +1,5 @@
+# Практична робота 1 -
+# Написати генератор, що видає всі можливі комбінації елементів заданого списку.
 from itertools import combinations
 
 
@@ -35,4 +37,4 @@ def test_gen_combinations(data: list):
 data1 = [1, 2, 3, 4]
 data2 = ['a', 'b', 'c', 'd']
 test_gen_combinations(data1)
-# test_gen_combinations(data2)
+test_gen_combinations(data2)
